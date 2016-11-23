@@ -7,3 +7,6 @@ It also removes the snapshots that are associated with the images. It will also 
 All you need to provide is the region, and your aws key and secret. It's great for dropping on your webhost and adding to a cron job.
 make sure to put the script in the same dirrectory as the aws.phar file: https://github.com/aws/aws-sdk-php/releases
 This was written with the aws phar version 3.19.32.
+
+
+BE CAREFUL! This will reboot all your instances when it runs, so you need to schedule it to run appropriately
